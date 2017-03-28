@@ -1,0 +1,15 @@
+<package>
+  <metadata>
+    <id>redis-windows-service</id>
+    <version>1.2.0.0</version>
+    <authors>kcherenkov,brunomlopes</authors>
+    <owners>kcherenkov</owners>
+    <projectUrl>https://github.com/brunomlopes/redis-windows-service</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Run Redis as Service on Windows. Needed only for older Redis Versions</description>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="RedisService\bin\Release\RedisService.exe" target="RedisService.exe" />
+  </files>
+</package>
